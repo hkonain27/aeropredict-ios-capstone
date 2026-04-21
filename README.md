@@ -113,7 +113,7 @@ The MVP includes flight search, prediction results, saved flights, and dashboard
 
 ### Low-Fidelity Navigation Flow
 
-![Flow](wireframes/lowfi-navigation-flow.png)
+![Flow](wireframes/wireframes/lowfi-navigation-flowm.jpeg)
 
 ### Screens
 
