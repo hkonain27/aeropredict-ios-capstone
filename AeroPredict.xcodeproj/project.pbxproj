@@ -6,8 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D0F377632F975913008A17FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F377622F975913008A17FD /* ContentView.swift */; };
+		D0F377702F9759FC008A17FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3776F2F9759F9008A17FD /* HomeView.swift */; };
+		D0F377722F975A0B008A17FD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F377712F975A00008A17FD /* DashboardView.swift */; };
+		D0F377742F975A14008A17FD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F377732F975A0F008A17FD /* ProfileView.swift */; };
+		D0F377762F975A1E008A17FD /* SavedFlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F377752F975A19008A17FD /* SavedFlightsView.swift */; };
+		D0F377782F975A2D008A17FD /* PredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F377772F975A29008A17FD /* PredictionView.swift */; };
+		D0F3777A2F975CD2008A17FD /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F377792F975A4B008A17FD /* Flight.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D0F3775D2F975913008A17FD /* AeroPredict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroPredict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F377622F975913008A17FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0F3776F2F9759F9008A17FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0F377712F975A00008A17FD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D0F377732F975A0F008A17FD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D0F377752F975A19008A17FD /* SavedFlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedFlightsView.swift; sourceTree = "<group>"; };
+		D0F377772F975A29008A17FD /* PredictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionView.swift; sourceTree = "<group>"; };
+		D0F377792F975A4B008A17FD /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +49,8 @@
 		D0F377542F975913008A17FD = {
 			isa = PBXGroup;
 			children = (
+				D0F3776C2F975951008A17FD /* Models */,
+				D0F3776B2F975941008A17FD /* Views */,
 				D0F3775F2F975913008A17FD /* AeroPredict */,
 				D0F3775E2F975913008A17FD /* Products */,
 			);
@@ -43,6 +62,27 @@
 				D0F3775D2F975913008A17FD /* AeroPredict.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F3776B2F975941008A17FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0F377772F975A29008A17FD /* PredictionView.swift */,
+				D0F377752F975A19008A17FD /* SavedFlightsView.swift */,
+				D0F377732F975A0F008A17FD /* ProfileView.swift */,
+				D0F377712F975A00008A17FD /* DashboardView.swift */,
+				D0F3776F2F9759F9008A17FD /* HomeView.swift */,
+				D0F377622F975913008A17FD /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0F3776C2F975951008A17FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0F377792F975A4B008A17FD /* Flight.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F377762F975A1E008A17FD /* SavedFlightsView.swift in Sources */,
+				D0F377702F9759FC008A17FD /* HomeView.swift in Sources */,
+				D0F377722F975A0B008A17FD /* DashboardView.swift in Sources */,
+				D0F377742F975A14008A17FD /* ProfileView.swift in Sources */,
+				D0F377632F975913008A17FD /* ContentView.swift in Sources */,
+				D0F3777A2F975CD2008A17FD /* Flight.swift in Sources */,
+				D0F377782F975A2D008A17FD /* PredictionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
